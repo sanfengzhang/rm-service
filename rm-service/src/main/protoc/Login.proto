@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "com.han.rm.proto";
+option java_outer_classname = "LoginProto";
+message LoginRequest {
+	string user_name = 2;
+	string password =  3;
+}
+
+
+

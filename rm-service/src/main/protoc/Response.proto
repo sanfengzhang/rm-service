@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.han.rm.proto";
+option java_outer_classname = "ResponseProto";
+message Response {
+	int32 response_status = 1;
+	int32 response_code = 2;
+	string response_content = 3;
+}
