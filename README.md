@@ -5,6 +5,7 @@
 开发人员只要关注业务层对不同消息的业务处理即可。
 使用也很简单：
 代码中有个简单的Login demo,继承AbstractBusHandler即可，在doHandle方法中处理对对应的消息业务、并返回结果给client
+
 @Service
 public class LoginHandler extends AbstractBusHandler
 {
